@@ -3,6 +3,10 @@ import Router from 'vue-router'
 import Login from '@/components/Login/login.vue'
 import Home from '@/components/Home/Home.vue'
 import Users from '@/components/Users/users.vue'
+import Right from '@/components/Right/right.vue'
+import Role from '@/components/Right/role.vue'
+
+
 
 
 
@@ -24,6 +28,16 @@ export default new Router({
           name: 'users',
           path: '/users',
           component: Users,
+        },
+        {
+          name: 'right',
+          path: '/right',
+          component: Right
+        },
+        {
+          name: 'role',
+          path: '/role',
+          component: Role
         }
       ]
     }

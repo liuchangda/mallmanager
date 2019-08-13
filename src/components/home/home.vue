@@ -45,11 +45,11 @@
               </template>
               <el-menu-item-group>
                 <template slot="title">
-                  <el-menu-item index="1-1">
+                  <el-menu-item index="role">
                     <i class="el-icon-watermelon"></i>
                     角色列表
                   </el-menu-item>
-                  <el-menu-item index="1-1">
+                  <el-menu-item index="right">
                     <i class="el-icon-pear"></i>
                     权限列表
                   </el-menu-item>
